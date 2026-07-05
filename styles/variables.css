@@ -1,6 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --font-main: 'Inter-Variable', sans-serif;
-  --font-accent: 'PressStart2P';
+  --font-main: "Inter-Variable", sans-serif;
+  --font-accent: "PressStart2P", fantasy;
+  --font-bold: 715;
+  --font-normal: 410;
+  --background-gradient:
+    repeating-linear-gradient(to right,#d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom,#d3d3d3 0px 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --container-width: clamp(375px, calc(375px + 0.305164 * (100vw - 375px)), 700px);
+  --header-inline-padding: clamp(12px, 10vw - 21.5px, 122.5px);
+  --header-block-padding: clamp(120px, 0.75vw + 119.2px, 130px);
+  --header-title-size: clamp(49px, 1.5vw + 43.4px, 65px);
+  --header-subtitle-size: clamp(14px, 0.845vw + 10.83px, 23px);
+  --floppy-icon-size: clamp(21px, calc(30.465px - 0.657vw), 28px);
+  --button-text-color: #fff;
+  --animation-fill-color: transparent;
+  --sparks-color: #ff0000;
+  --contour-color: #000;
 }
