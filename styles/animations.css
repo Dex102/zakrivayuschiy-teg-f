@@ -10,7 +10,7 @@
 
 */
 
-@keyframes like {
+@keyframes heart-grow {
   from {
     scale: 1;
   }
@@ -19,7 +19,7 @@
   }
 }
 
-@keyframes sparks {
+@keyframes sparks-move {
   from {
     opacity: 0;
   }

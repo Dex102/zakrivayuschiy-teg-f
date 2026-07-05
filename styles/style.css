@@ -28,7 +28,7 @@
   padding-inline: var(--header-inline-padding);
   padding-block: var(--header-block-padding);
   margin-block: 100px;
-  outline: 2px solid #000000;
+  outline: 2px solid #000;
   font-family: var(--font-accent);
   text-transform: uppercase;
   gap: 20px;
@@ -87,6 +87,7 @@
 
 .image-label {
   font-weight: 400;
+  font-size: 14px;
   font-family: var(--font-accent);
   text-transform: uppercase;
   color: #000;
@@ -163,7 +164,7 @@
 }
 
 .button__text {
-  font-family: var(--font-accent), fantasy;
+  font-family: var(--font-accent);
   font-size: 14px;
   border: none;
   position: relative;
@@ -176,6 +177,7 @@
   inline-size: 130px;
   block-size: 38px;
   padding: 0px 17px;
+  cursor: pointer;
 }
 
 .button-effects {
@@ -224,6 +226,7 @@
   background-color: #fff;
   margin-top: 50px;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 
 .insert-floppy {
@@ -269,6 +272,7 @@
 .ok-button {
   width: 100%;
   padding-block: 9px;
+  cursor: pointer;
 }
 
 @media (width <= 375px) {
